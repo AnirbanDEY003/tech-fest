@@ -1,0 +1,14 @@
+.events-stars{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../../assets/images/ebg.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.tondon{
+    padding-top: 30px;
+}
+.tondon img{
+    width: 300px;
+}

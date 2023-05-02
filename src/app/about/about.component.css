@@ -1,0 +1,56 @@
+.second-page{
+    height: auto;
+}
+.bg{
+    height: 130vh;
+    background-image: linear-gradient(rgba(0,0,0,0.86),rgba(0,0,0,1)),url(../../assets/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.logo{
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.logo > img{
+    width: 100px;
+    transition: 0.8s ease-in-out;
+}
+.second-page:hover img{
+    width: 300px;
+}
+.desc{
+    width: auto;
+    position: relative;
+    top: 70px;
+    bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.desc p{
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 50px;
+    color: var(--common-color);
+    transition: 1s ease-in-out;
+}
+.desc h1{
+    margin-bottom: 50px;
+    color: var(--common-color);
+    text-align: center;
+    transition: 1s ease-in-out;
+}
+@media screen and (max-width: 500px) {
+    .desc{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .desc{
+        font-size: medium;
+    }
+}
+

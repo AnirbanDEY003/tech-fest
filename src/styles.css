@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+:root{
+    --primary-color: #3c1c5f;
+    --secondary-color: #ff0099;
+    --bg-color: rgb(0, 0, 0);
+    --bg-darkC: #212529;
+    --common-color: white;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: linear-gradient(0deg, var(--secondary-color) 0%,rgba(7,0,211,1) 100%);
+    filter: blur(30px);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background: transparent;
+    box-shadow: 0px 0px 0px 100vh black;
+}
