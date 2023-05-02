@@ -9,6 +9,6 @@
 .tondon{
     padding-top: 30px;
 }
-.tondon img{
-    width: 300px;
+.tondon h1{
+    color: var(--common-color);
 }
