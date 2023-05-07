@@ -49,22 +49,16 @@
     bottom: 2px;
     position: absolute;
     display: flex;
-}
-.prt1{
-    margin-left: 20px;
-}
-.prt1 h1{
-    color: var(--common-color);
-    text-transform: uppercase;
-    font-size: 4pc;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .prt2{
+    margin-bottom: 20px;
     height: auto;
-    text-align: end;
     margin-right: 20px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    position: relative;
+
 }
 .prt2 h2{
     color: rgb(255, 0, 162);

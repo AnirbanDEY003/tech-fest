@@ -1,6 +1,6 @@
 section{
     margin: 0;
-    padding: 0;
+    padding-top: 100px;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.86),rgba(0,0,0,1)),url(../../assets/images/bg.jpg);
 }
@@ -99,6 +99,7 @@ ul li div h3{
     color: rgb(0, 255, 0);
 }
 .details li{
+    font-family: sans-serif;
     width: fit-content;
     list-style: disc;
     margin-top: 0;

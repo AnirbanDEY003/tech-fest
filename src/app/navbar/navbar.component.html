@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-scroll bg-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto navbar-nav-scroll">
+            <li class="nav-item" (click)="toHome()" routerLink="/home" routerLinkActive="active-link">Home
+            </li>
+            <li class="nav-item" (click)="toAbout()" routerLinkActive="active-link">About
+            </li>
+            <li class="nav-item" (click)="toMessage()" routerLinkActive="active-link">Message
+            </li>
+            <li class="nav-item" (click)="toFeature()" routerLinkActive="active-link">Feature
+            </li>
+            <li class="nav-item" (click)="toSponsorship()" routerLinkActive="active-link">Sponsorship
+            </li>
+            <li class="nav-item" (click)="toEvents()" routerLinkActive="active-link">Events
+            </li>
+        </ul>
+        <ul class="navbar-nav d-flex flex-row">
+            <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.facebook.com/profile.php?id=100092292252596">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://twitter.com/techaus_fest">
+                <i class="fab fa-twitter"></i>
+            </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.instagram.com/yantraksh.aus/">
+                <i class="fab fa-instagram"></i>
+            </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://youtube.com/@austechfest">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>

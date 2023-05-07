@@ -11,6 +11,7 @@ import { FeatureComponent } from './feature/feature.component';
 import { SponsorshipComponent } from './sponsorship/sponsorship.component';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { MessageComponent } from './message/message.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MessageComponent } from './message/message.component';
     EventsComponent,
     FeatureComponent,
     SponsorshipComponent,
-    MessageComponent
+    MessageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
