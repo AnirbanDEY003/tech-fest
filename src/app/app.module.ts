@@ -7,17 +7,25 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { StringConstants } from 'src/stringConstants';
 import { EventsComponent } from './events/events.component';
+import { FeatureComponent } from './feature/feature.component';
+import { SponsorshipComponent } from './sponsorship/sponsorship.component';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import { MessageComponent } from './message/message.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    EventsComponent
+    EventsComponent,
+    FeatureComponent,
+    SponsorshipComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    InfiniteScrollModule
   ],
   providers: [
     StringConstants

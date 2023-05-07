@@ -1,0 +1,117 @@
+section{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.86),rgba(0,0,0,1)),url(../../assets/images/bg.jpg);
+}
+.main{
+    position: relative;
+    width: 100%;
+    padding: 50px 80px;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.heading{
+    border-radius: 50%;
+    height: 200px;
+    padding: 30px;
+    border: 1px solid rgb(255, 0, 238);
+    border-right: 1px solid cyan;
+    border-bottom: 1px solid cyan;
+    backdrop-filter: blur(2px);
+    width: 200px;
+    transition: 0.8s ease-in-out;
+}
+.heading:hover{
+    border-radius: 10px;
+    animation: rotate 2s linear infinite;
+    transform: scale(1.1);
+    transform: translateY(-20px);
+}
+@keyframes rotate {
+    0%, 100%{
+        box-shadow: 2px 2px 2px cyan, inset 2px 2px 2px rgb(255, 0, 238);
+    }
+    50%{
+        box-shadow: 2px 2px 2px rgb(255, 0, 238), inset 2px 2px 2px cyan;
+    }
+}
+.title h1 span{
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: var(--common-color);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+}
+.title h1 span:hover{
+    letter-spacing: 0.1em;
+    text-shadow: 5px 5px 10px rgba(0, 255, 60, 0.86);
+}
+h2 span:hover{
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 20px rgba(0, 238, 255, 0.997);
+}
+ul{
+    list-style: decimal;
+    margin-left: 10px;
+    margin-top: 50px;
+    color: var(--common-color);
+}
+.sponsors-name{
+    margin-left: 10px;
+    margin-top: 50px;
+    list-style: none;
+}
+.sponsors-name::before{
+    position: absolute;
+    content: '»';
+    font-size: 100px;
+    color: cyan;
+    background-color: transparent;
+    text-shadow: 0 0 5px #00c4ff, 0 0 10px #00c4ff;
+    margin-left: -60px;
+    margin-top: -60px;
+}
+ul li div h2 span{
+    padding: 10px 20px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: aqua;
+    animation: rotate 5s linear infinite;
+}
+ul li div h3{
+    font-size: 2.5em;
+    color: rgb(0, 255, 0);
+}
+.details li{
+    width: fit-content;
+    list-style: disc;
+    margin-top: 0;
+    vertical-align: middle;
+    font-size: 1.8em;
+    transition: 0.5s ease-in-out;
+}
+.details{
+    margin-right: 30px;
+    transition: 0.5s ease-in-out;
+}
+.details li:hover{
+    list-style: none;
+    padding-left: 20px;
+    transform: scale(1.1);
+}

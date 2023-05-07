@@ -1,8 +1,8 @@
-.second-page{
-    height: auto;
+.aus{
+    min-height: 100vh;
 }
 .bg{
-    height: 130vh;
+    min-height: 130vh;
     background-image: linear-gradient(rgba(0,0,0,0.86),rgba(0,0,0,1)),url(../../assets/images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,11 +15,8 @@
     position: relative;
 }
 .logo > img{
-    width: 100px;
-    transition: 0.8s ease-in-out;
-}
-.second-page:hover img{
     width: 300px;
+    transition: 0.8s ease-in-out;
 }
 .desc{
     width: auto;
@@ -53,4 +50,6 @@
         font-size: medium;
     }
 }
-
+.yantraksh{
+    min-height: 100vh;
+}

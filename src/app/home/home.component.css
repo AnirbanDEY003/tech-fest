@@ -1,10 +1,9 @@
 
 .first-page{
-    height: 150vh;
-    /* background-color: var(--primary-color); */
     overflow-x: hidden;
 }
 .bg{
+    min-height: 100pc;
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../../assets/images/bg.jpg);
     height: 100%;
     width: 100%;
@@ -13,14 +12,37 @@
     background-repeat: no-repeat;
     position: relative;
 }
+.logo h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 5em;
+    color: var(--common-color);
+    cursor: pointer;
+}
+.logo h1 span{
+    transition: 0.5s ease-in-out;
+}
+.logo h1 span:hover{
+    letter-spacing: 1em;
+}
 .logo{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    display: block;
 }
 .logo > img{
     width: 700px;
+    transition: 0.6s ease-in-out;
+}
+.logo:hover img{
+    transform: rotateY(360deg) translateY(-20px);
 }
 .bottom{
     width: 100%;
