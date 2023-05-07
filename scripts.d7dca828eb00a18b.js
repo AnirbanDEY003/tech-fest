@@ -1,0 +1,1 @@
+let progress=document.getElementById("progressbar"),totalHeight=document.body.scrollHeight-window.innerHeight;window.onscroll=function(){let e=window.pageYOffset/totalHeight*100;progress.style.height=e+"%"};
